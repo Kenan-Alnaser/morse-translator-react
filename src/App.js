@@ -47,10 +47,11 @@ function App() {
     let output = "";
     let formatedInput = input.toString();
     let morseArray = formatedInput.split("");
+    console.log(morseArray);
     for (let i = 0; i < morseArray.length; i++) {
       output += morseCodes[morseArray[i].toUpperCase()];
     }
-    setOutput({ output });
+    setOutput(output);
   }
 
   function changeHandle(e) {
