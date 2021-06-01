@@ -51,7 +51,11 @@ function App() {
     }
     setOutput({ output });
   }
+  function changeHandle(e) {
+    setInput(e.target.value);
+  }
 
-  return <div className="App"></div>;
+  return (
+  );
 }
 export default App;
