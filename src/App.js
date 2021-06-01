@@ -42,6 +42,16 @@ const morseCodes = {
 function App() {
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
+
+  function convertToMorse(input) {
+    let output = "";
+    let morseArray = input.split("");
+    for (let i = 0; i < morseArray.length; i++) {
+      output += morseCodes[morseArray[i].toUpperCase()];
+    }
+    setOutput({ output });
+  }
+
   return <div className="App"></div>;
 }
 export default App;
