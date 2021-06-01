@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 const morseCodes = {
   A: ".-",
   B: "-...",
@@ -37,8 +39,17 @@ const morseCodes = {
   9: "----.",
 };
 
-function App() {
-  return <div className="App"></div>;
-}
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: "",
+      output: "",
+    };
+  }
 
+  render() {
+    return <div className="App"></div>;
+  }
+}
 export default App;
