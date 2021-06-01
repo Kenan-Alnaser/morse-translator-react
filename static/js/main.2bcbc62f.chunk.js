@@ -1,2 +1,0 @@
-(this["webpackJsonpmorse-translator-react"]=this["webpackJsonpmorse-translator-react"]||[]).push([[0],{9:function(t,e,r){"use strict";r.r(e);var s=r(1),n=r.n(s),a=r(3),c=r.n(a),o=r(0);var i=function(){return Object(o.jsx)("div",{className:"App"})};c.a.render(Object(o.jsx)(n.a.StrictMode,{children:Object(o.jsx)(i,{})}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.2bcbc62f.chunk.js.map
