@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
 const morseCodes = {
   A: ".-",
@@ -39,17 +39,9 @@ const morseCodes = {
   9: "----.",
 };
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      input: "",
-      output: "",
-    };
-  }
-
-  render() {
-    return <div className="App"></div>;
-  }
+function App() {
+  const [input, setInput] = useState("");
+  const [output, setOutput] = useState("");
+  return <div className="App"></div>;
 }
 export default App;
