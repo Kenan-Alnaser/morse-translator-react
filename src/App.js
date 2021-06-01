@@ -43,19 +43,18 @@ function App() {
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
 
-  function convertToMorse(input) {
+  function changeHandle(e) {
+    setInput(e.target.value);
+  }
+
+  function translateText() {
     let output = "";
     let formatedInput = input.toString();
     let morseArray = formatedInput.split("");
-    console.log(morseArray);
     for (let i = 0; i < morseArray.length; i++) {
       output += morseCodes[morseArray[i].toUpperCase()];
     }
     setOutput(output);
-  }
-
-  function changeHandle(e) {
-    setInput(e.target.value);
   }
 
   return (
@@ -66,8 +65,8 @@ function App() {
         className="form-control"
         value={input}
         onChange={changeHandle}
+        onKeyUp={translateText}
       />
-      <button onClick={convertToMorse}>Convert</button>
       <h3>original: {input}</h3>
       <h3>morse: {output}</h3>
     </div>
