@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/morse-translator-react.git/static/js/main.2bcbc62f.chunk.js",
+    "main.js.map": "/morse-translator-react.git/static/js/main.2bcbc62f.chunk.js.map",
+    "runtime-main.js": "/morse-translator-react.git/static/js/runtime-main.b56790e0.js",
+    "runtime-main.js.map": "/morse-translator-react.git/static/js/runtime-main.b56790e0.js.map",
+    "static/js/2.e75972df.chunk.js": "/morse-translator-react.git/static/js/2.e75972df.chunk.js",
+    "static/js/2.e75972df.chunk.js.map": "/morse-translator-react.git/static/js/2.e75972df.chunk.js.map",
+    "index.html": "/morse-translator-react.git/index.html",
+    "static/js/2.e75972df.chunk.js.LICENSE.txt": "/morse-translator-react.git/static/js/2.e75972df.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b56790e0.js",
+    "static/js/2.e75972df.chunk.js",
+    "static/js/main.2bcbc62f.chunk.js"
+  ]
+}
