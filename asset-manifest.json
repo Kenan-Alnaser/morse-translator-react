@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/morse-translator-react.git/static/js/main.7ddef6b0.chunk.js",
-    "main.js.map": "/morse-translator-react.git/static/js/main.7ddef6b0.chunk.js.map",
-    "runtime-main.js": "/morse-translator-react.git/static/js/runtime-main.b56790e0.js",
-    "runtime-main.js.map": "/morse-translator-react.git/static/js/runtime-main.b56790e0.js.map",
-    "static/js/2.879ea92c.chunk.js": "/morse-translator-react.git/static/js/2.879ea92c.chunk.js",
-    "static/js/2.879ea92c.chunk.js.map": "/morse-translator-react.git/static/js/2.879ea92c.chunk.js.map",
-    "index.html": "/morse-translator-react.git/index.html",
-    "static/js/2.879ea92c.chunk.js.LICENSE.txt": "/morse-translator-react.git/static/js/2.879ea92c.chunk.js.LICENSE.txt"
+    "main.js": "/morse-translator-react/static/js/main.7ddef6b0.chunk.js",
+    "main.js.map": "/morse-translator-react/static/js/main.7ddef6b0.chunk.js.map",
+    "runtime-main.js": "/morse-translator-react/static/js/runtime-main.705d8505.js",
+    "runtime-main.js.map": "/morse-translator-react/static/js/runtime-main.705d8505.js.map",
+    "static/js/2.879ea92c.chunk.js": "/morse-translator-react/static/js/2.879ea92c.chunk.js",
+    "static/js/2.879ea92c.chunk.js.map": "/morse-translator-react/static/js/2.879ea92c.chunk.js.map",
+    "index.html": "/morse-translator-react/index.html",
+    "static/js/2.879ea92c.chunk.js.LICENSE.txt": "/morse-translator-react/static/js/2.879ea92c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b56790e0.js",
+    "static/js/runtime-main.705d8505.js",
     "static/js/2.879ea92c.chunk.js",
     "static/js/main.7ddef6b0.chunk.js"
   ]
