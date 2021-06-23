@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./sass/main.scss"
 
 const morseCodes = {
   A: ".-",
@@ -67,8 +68,8 @@ function App() {
         onChange={changeHandle}
         onKeyUp={translateText}
       />
-      <h3>original: {input}</h3>
-      <h3>morse: {output}</h3>
+      <h3 className="input">original: {input}</h3>
+      <h3 className="output">morse: {output}</h3>
     </div>
   );
 }
