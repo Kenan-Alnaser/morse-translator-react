@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 body{
   display: flex;
   justify-content: center;
@@ -5,29 +7,37 @@ body{
   width: 100vw;
   height: 100vh;
   background-color: #6d695c;
-background-image:
-repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
-repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
-linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
-linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
-background-size: 70px 120px;
+  background-image:
+  repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+  linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 70px 120px;
 }
 
 .container {
   border: 30px solid rgb(64,33,15);
   border-image: linear-gradient(90deg, rgba(64,33,15,1) 39%, rgba(156,67,0,1) 89%, rgba(75,75,75,1) 100%) 30;
-  padding: 6rem;
-  background-color: rgb(110, 110, 110);
+  padding: 7rem;
+  background-image: url("https://www.textures.com/system/gallery/photos/Wood/Fine%20Wood/114255/WoodFine0071_18_download600.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 50vw;
   height: 50vh;
 }
 
-.input{
-  border: 2px solid;
-  overflow: hidden;
+h1, h2{
+  text-decoration: underline;
 }
 
-.output{
-  border: 2px solid;
 
+.input, .output{
+  border: 0.2em solid;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.input{
+  font-family: 'Kaushan Script', cursive;
+  overflow: hidden;
 }

@@ -73,8 +73,10 @@ function App() {
         onChange={changeHandle}
         onKeyUp={translateText}
       />
-      <h3 className="input">original: {input}</h3>
-      <h3 className="output">morse: {output}</h3>
+      <h2>original: </h2>
+      <h3 className="input">{input}</h3>
+      <h2>morse:</h2>
+      <h3 className="output">{output}</h3>
     </div>
   );
 }
