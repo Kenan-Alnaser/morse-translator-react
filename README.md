@@ -1,3 +1,7 @@
+# About this app
+
+A morse code translator app that lets you enter a text and translates it into morse code.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +72,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Citations
+
+Font (Kaushan Script) by Google Fonts
+
+Wood background image by textures.com
+
+Main background pattern by projects.verou.me
