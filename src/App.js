@@ -53,8 +53,13 @@ function App() {
     let formatedInput = input.toString();
     let morseArray = formatedInput.split("");
     for (let i = 0; i < morseArray.length; i++) {
+      if (morseArray[i]==" "){
+        output += " ";
+      }
+      else{
       output += morseCodes[morseArray[i].toUpperCase()];
     }
+  }
     setOutput(output);
   }
 
